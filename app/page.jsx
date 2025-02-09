@@ -1,5 +1,11 @@
+import HomeProperties from "@/components/HomeProperties";
+
 const HomePage = () => {
-  return <div className="text-2xl">HomePage</div>;
+  return (
+    <>
+      <HomeProperties />
+    </>
+  );
 };
 
 export default HomePage;
