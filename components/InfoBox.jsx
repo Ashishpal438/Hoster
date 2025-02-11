@@ -6,6 +6,7 @@ const InfoBox = ({
   textColor = "800",
   buttonInfo,
 }) => {
+  console.log("heading", heading);
   return (
     <div className={`${backgroundColor} p-6 rounded-lg shadow-md`}>
       <h2 className={`${textColor} font-bold`}>{heading}</h2>
